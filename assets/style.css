@@ -16,88 +16,92 @@ body {
     font-size: 4em;
 }
 
-.numberCounterDiv {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/***************************** minus, number, plus section*/
+.minusNumberPlusDiv{
+    text-align: center;
+    margin-top: 7em;
 }
 
-.counterNumber {
-    font-size: 6em;
+.minusNumberPlusDiv li{
+    display: inline;
 }
 
-.minusIconDiv {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    background-color: greenyellow;
-    padding: 1em;
-    border-radius: 2em;
-    cursor: pointer
-}
-
-.minusIconDiv:hover {
-    background-color: mediumspringgreen;
-}
-
+/***************************** minus sign*/
 .fas.fa-minus {
     font-size: 3em;
     cursor: pointer;
     color: slateblue;
+    margin-right: 1em;
+    background-color: greenyellow;
+    padding: 0.1em 0.2em;
+    border-radius: 0.5em;
 }
 
 .fas.fa-minus:hover {
-    color: greenyellow;
+    color: mediumspringgreen;
+    background-color: slateblue;
 }
 
-.plusIconDiv {
-    position: absolute;
-    top: 50%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    background-color: greenyellow;
-    padding: 1em;
-    border-radius: 2em;
-    cursor: pointer
-}
+/***************************** Counter Number */
+.counterNumber {
+    font-size: 5em;
+    font-weight: 900;
+} 
 
-.plusIconDiv:hover {
-    background-color: mediumspringgreen;
-}
-
+/***************************** plus sign */
 .fas.fa-plus {
     font-size: 3em;
     cursor: pointer;
     color: slateblue;
+    margin-left: 1em;
+    background-color: greenyellow;
+    padding: 0.1em 0.2em;
+    border-radius: 0.5em;
 }
 
 .fas.fa-plus:hover {
-    color: greenyellow;
-}
+    color: mediumspringgreen;
+    background-color: slateblue;
+} 
 
-.restartIconDiv {
-    position: absolute;
-    top: 67%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: greenyellow;
-    padding: 1em;
-    border-radius: 2em;
-    cursor: pointer
-}
-
-.restartIconDiv:hover {
-    background-color: mediumspringgreen;
+/***************************** restart sign */
+.restartIconDiv{
+    text-align: center;
+    margin-top: 2em;
 }
 
 .fas.fa-redo-alt {
     font-size: 3em;
     cursor: pointer;
     color: slateblue;
+    background-color: greenyellow;
+    padding: 0.2em;
+    border-radius: 0.5em;
 }
 
 .fas.fa-redo-alt:hover {
-    color: greenyellow;
+    color: mediumspringgreen;
+    background-color: slateblue;
 }
+
+/***************************** media queries*****************************/
+@media (min-width: 576px) {
+    .title {
+        margin-top: 1.5em;
+    }
+
+/***************************** minus, number, plus section*/
+.minusNumberPlusDiv{
+    margin-top: 10em;
+}
+
+
+
+
+
+
+}
+
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
