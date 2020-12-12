@@ -1,31 +1,33 @@
-*{
+* {
     margin: 0em;
     padding: 0em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: slateblue;
 }
 
-body{
+body {
     cursor: default;
+    background-color: lightpink;
 }
 
-.title{
+.title {
     text-align: center;
     margin-top: 1em;
     font-size: 4em;
 }
 
-.numberCounterDiv{
+.numberCounterDiv {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.counterNumber{
+.counterNumber {
     font-size: 10em;
 }
 
-.minusIconDiv{
+.minusIconDiv {
     position: absolute;
     top: 50%;
     left: 30%;
@@ -35,24 +37,45 @@ body{
     border-radius: 2em;
 }
 
-.fas.fa-minus{
-    font-size: 5em;
-    cursor: pointer;
+.minusIconDiv:hover {
+    background-color: mediumspringgreen;
 }
 
-.restartIconDiv{
+.fas.fa-minus {
+    font-size: 5em;
+    cursor: pointer;
+    color: slateblue;
+}
+
+.fas.fa-minus:hover {
+    color: greenyellow;
+}
+
+.restartIconDiv {
     position: absolute;
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: greenyellow;
+    padding: 1em;
+    border-radius: 2em;
 }
 
-.fas.fa-redo-alt{
+.restartIconDiv:hover {
+    background-color: mediumspringgreen;
+}
+
+.fas.fa-redo-alt {
     font-size: 5em;
     cursor: pointer;
+    color: slateblue;
 }
 
-.plusIconDiv{
+.fas.fa-redo-alt:hover {
+    color: greenyellow;
+}
+
+.plusIconDiv {
     position: absolute;
     top: 50%;
     right: 18%;
@@ -62,7 +85,16 @@ body{
     border-radius: 2em;
 }
 
-.fas.fa-plus{
+.plusIconDiv:hover {
+    background-color: mediumspringgreen;
+}
+
+.fas.fa-plus {
     font-size: 5em;
     cursor: pointer;
+    color: slateblue;
+}
+
+.fas.fa-plus:hover {
+    color: greenyellow;
 }
