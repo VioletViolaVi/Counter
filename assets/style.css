@@ -12,7 +12,7 @@ body {
 
 .title {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 0.3em;
     font-size: 4em;
 }
 
@@ -24,17 +24,18 @@ body {
 }
 
 .counterNumber {
-    font-size: 10em;
+    font-size: 6em;
 }
 
 .minusIconDiv {
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 20%;
     transform: translate(-50%, -50%);
     background-color: greenyellow;
     padding: 1em;
     border-radius: 2em;
+    cursor: pointer
 }
 
 .minusIconDiv:hover {
@@ -42,7 +43,7 @@ body {
 }
 
 .fas.fa-minus {
-    font-size: 5em;
+    font-size: 3em;
     cursor: pointer;
     color: slateblue;
 }
@@ -51,38 +52,15 @@ body {
     color: greenyellow;
 }
 
-.restartIconDiv {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: greenyellow;
-    padding: 1em;
-    border-radius: 2em;
-}
-
-.restartIconDiv:hover {
-    background-color: mediumspringgreen;
-}
-
-.fas.fa-redo-alt {
-    font-size: 5em;
-    cursor: pointer;
-    color: slateblue;
-}
-
-.fas.fa-redo-alt:hover {
-    color: greenyellow;
-}
-
 .plusIconDiv {
     position: absolute;
     top: 50%;
-    right: 18%;
+    left: 80%;
     transform: translate(-50%, -50%);
     background-color: greenyellow;
     padding: 1em;
     border-radius: 2em;
+    cursor: pointer
 }
 
 .plusIconDiv:hover {
@@ -90,11 +68,36 @@ body {
 }
 
 .fas.fa-plus {
-    font-size: 5em;
+    font-size: 3em;
     cursor: pointer;
     color: slateblue;
 }
 
 .fas.fa-plus:hover {
+    color: greenyellow;
+}
+
+.restartIconDiv {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: greenyellow;
+    padding: 1em;
+    border-radius: 2em;
+    cursor: pointer
+}
+
+.restartIconDiv:hover {
+    background-color: mediumspringgreen;
+}
+
+.fas.fa-redo-alt {
+    font-size: 3em;
+    cursor: pointer;
+    color: slateblue;
+}
+
+.fas.fa-redo-alt:hover {
     color: greenyellow;
 }
