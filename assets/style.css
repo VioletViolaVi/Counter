@@ -1,4 +1,68 @@
 *{
     margin: 0em;
     padding: 0em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    cursor: default;
+}
+
+.title{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 4em;
+}
+
+.numberCounterDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.counterNumber{
+    font-size: 10em;
+}
+
+.minusIconDiv{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: greenyellow;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.fas.fa-minus{
+    font-size: 5em;
+    cursor: pointer;
+}
+
+.restartIconDiv{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fas.fa-redo-alt{
+    font-size: 5em;
+    cursor: pointer;
+}
+
+.plusIconDiv{
+    position: absolute;
+    top: 50%;
+    right: 18%;
+    transform: translate(-50%, -50%);
+    background-color: greenyellow;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.fas.fa-plus{
+    font-size: 5em;
+    cursor: pointer;
 }
