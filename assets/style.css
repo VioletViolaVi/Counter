@@ -8,12 +8,30 @@
 body {
     cursor: default;
     background-color: lightpink;
+    height: 100%;
+    position: relative;
+    padding-bottom: 8.6em;
+    min-height: 25em;
+}
+
+.headerBg {
+    background-color: slateblue;
+    height: 3em;
+    width: 100%;
 }
 
 .title {
     text-align: center;
     margin-top: 0.3em;
     font-size: 4em;
+}
+
+.footerBg {
+    background-color: slateblue;
+    height: 3em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /***************************** minus, number, plus section*/
@@ -100,28 +118,60 @@ body {
     .minusNumberPlusDiv {
         margin-top: 10em;
     }
-    /***************************** minus sign*/
-    .fas.fa-minus {
-        font-size: 5em;
-    }
-    /***************************** Counter Number */
-    .counterNumber {
-        font-size: 7em;
-    }
-    /***************************** plus sign */
-    .fas.fa-plus {
-        font-size: 5em;
-    }
-    /***************************** restart sign */
-    .fas.fa-redo-alt {
+    /***************************** minus, counter number, plus, restart*/
+    .fas.fa-minus, .counterNumber, .fas.fa-plus, .fas.fa-redo-alt {
         font-size: 5em;
     }
 }
 
 @media (min-width: 768px) {
-    
+    .title {
+        margin-top: 0.5em;
+        font-size: 9em;
+    }
+    /***************************** minus, plus, restart*/
+    .fas.fa-minus, .fas.fa-plus, .fas.fa-redo-alt {
+        font-size: 7em;
+    }
+    /***************************** counter number*/
+    .counterNumber {
+        font-size: 10em;
+    }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .title {
+        margin-top: 0.1em;
+        font-size: 10em;
+    }
+    /***************************** minus, number, plus section*/
+    .minusNumberPlusDiv {
+        margin-top: 7em;
+    }
+    /***************************** minus, plus, restart*/
+    .fas.fa-minus, .fas.fa-plus, .fas.fa-redo-alt {
+        font-size: 10em;
+    }
+    /***************************** counter number*/
+    .counterNumber {
+        font-size: 14em;
+    }
+}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .title {
+        margin-top: 0.5em;
+    }
+    /***************************** minus, number, plus section*/
+    .minusNumberPlusDiv {
+        margin-top: 6em;
+    }
+    /***************************** minus, plus, restart*/
+    .fas.fa-minus, .fas.fa-plus, .fas.fa-redo-alt {
+        font-size: 12em;
+    }
+    /***************************** counter number*/
+    .counterNumber {
+        font-size: 16em;
+    }
+}
