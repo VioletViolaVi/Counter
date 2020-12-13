@@ -10,7 +10,7 @@ body {
     background-color: lightpink;
     height: 100%;
     position: relative;
-    padding-bottom: 8.6em;
+    padding-bottom: 9.2em;
     min-height: 25em;
 }
 
@@ -34,7 +34,7 @@ body {
     width: 100%;
 }
 
-/***************************** minus, number, plus section*/
+/***************************** minus, number, plus*/
 
 .minusNumberPlusDiv {
     text-align: center;
@@ -45,7 +45,7 @@ body {
     display: inline;
 }
 
-/***************************** minus sign*/
+/***************************** minus*/
 
 .fas.fa-minus {
     font-size: 3em;
@@ -69,7 +69,7 @@ body {
     font-weight: 900;
 }
 
-/***************************** plus sign */
+/***************************** plus*/
 
 .fas.fa-plus {
     font-size: 3em;
@@ -86,7 +86,7 @@ body {
     background-color: slateblue;
 }
 
-/***************************** restart sign */
+/***************************** restart*/
 
 .restartIconDiv {
     text-align: center;
@@ -109,25 +109,45 @@ body {
 
 /***************************** media queries*****************************/
 
+@media (min-width: 460px) {
+    body {
+        padding-bottom: 13.9em;
+    }
+}
+
 @media (min-width: 576px) {
     .title {
-        margin-top: 1.5em;
         font-size: 4.5em;
+        margin-top: 0.5em;
     }
-    /***************************** minus, number, plus section*/
-    .minusNumberPlusDiv {
-        margin-top: 10em;
+    body {
+        padding-bottom: 7.1em;
     }
-    /***************************** minus, counter number, plus, restart*/
-    .fas.fa-minus, .counterNumber, .fas.fa-plus, .fas.fa-redo-alt {
+    /***************************** minus, plus, restart*/
+    .fas.fa-minus, .fas.fa-plus, .fas.fa-redo-alt {
         font-size: 5em;
+    }
+    /***************************** counter number*/
+    .counterNumber {
+        font-size: 7em;
     }
 }
 
 @media (min-width: 768px) {
     .title {
-        margin-top: 0.5em;
-        font-size: 9em;
+        font-size: 6em;
+        margin-top: 0em;
+    }
+    body {
+        padding-bottom: 5.8em;
+    }
+    /***************************** minus, number, plus*/
+    .minusNumberPlusDiv {
+        margin-top: 3em;
+    }
+    /***************************** restart*/
+    .restartIconDiv {
+        margin-top: 1.5em;
     }
     /***************************** minus, plus, restart*/
     .fas.fa-minus, .fas.fa-plus, .fas.fa-redo-alt {
@@ -141,37 +161,61 @@ body {
 
 @media (min-width: 992px) {
     .title {
-        margin-top: 0.1em;
-        font-size: 10em;
+        font-size: 7em;
     }
-    /***************************** minus, number, plus section*/
-    .minusNumberPlusDiv {
-        margin-top: 7em;
+    body {
+        padding-bottom: 7.2em;
     }
     /***************************** minus, plus, restart*/
     .fas.fa-minus, .fas.fa-plus, .fas.fa-redo-alt {
-        font-size: 10em;
+        font-size: 6em;
     }
     /***************************** counter number*/
     .counterNumber {
-        font-size: 14em;
+        font-size: 9em;
     }
 }
 
 @media (min-width: 1200px) {
     .title {
-        margin-top: 0.5em;
+        font-size: 10em;
+        margin-top: 0.2em;
     }
-    /***************************** minus, number, plus section*/
+    body {
+        padding-bottom: 10em;
+    }
+    /***************************** minus, number, plus*/
     .minusNumberPlusDiv {
-        margin-top: 6em;
+        margin-top: 1em;
     }
     /***************************** minus, plus, restart*/
     .fas.fa-minus, .fas.fa-plus, .fas.fa-redo-alt {
-        font-size: 12em;
+        font-size: 10em;
     }
     /***************************** counter number*/
     .counterNumber {
-        font-size: 16em;
+        font-size: 12em;
+    }
+}
+
+@media (min-width: 1366px) {
+    .title {
+        font-size: 8em;
+        margin-top: 0em;
+    }
+    body {
+        padding-bottom: 9em;
+    }
+    /***************************** minus, number, plus*/
+    .minusNumberPlusDiv {
+        margin-top: 5em;
+    }
+    /***************************** minus, plus, restart*/
+    .fas.fa-minus, .fas.fa-plus, .fas.fa-redo-alt {
+        font-size: 7em;
+    }
+    /***************************** counter number*/
+    .counterNumber {
+        font-size: 9em;
     }
 }
